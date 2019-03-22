@@ -1,0 +1,143 @@
+*{
+    font-family: HelveticaNeue,'Noto Naskh Arabic UI',Arial,sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+.header {
+    float: right;
+    padding-right: 15px;
+}
+.header a {
+    margin: 10px;
+    color: black;
+   
+ 
+}
+.header button {
+    margin: 10px;
+    color: white;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    font-weight: bold;
+    border: 1px solid #4285f4;
+    display: inline-block;
+    color: #fff;
+    border-radius: 2px;
+     line-height: 28px;
+     padding: 0 12px;
+
+}
+.header a .header button{
+    text-decoration: none;
+}
+.container img {
+    width: 272px;
+    height: 92px;
+    margin: 0 auto;
+    padding-top: 109px;
+    padding-left:540px;
+    padding-right: 560px;
+}
+.main {
+    border: 1px solid #f2f2f2;
+    color: #5f6368;
+    font-family: arial,sans-serif;
+    font-size:14px;
+    margin: 11px 4px;
+    padding: 18px;
+    height: 20px;
+    cursor: pointer;
+}
+
+a.thl {
+    background: url(GA-icon.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    border-radius: 2px;
+    box-sizing: border-box;
+    opacity: .55;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    
+}
+.bar {
+    background: white;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none ;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+    src: url(Google_microphone_logo.png)
+}
+
+.add {
+  padding-top: 18px;
+  position: absolute;
+  top: 53px;
+  width: 487px;
+  z-index: 0;  
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    right:0;
+    width: 100%;
+    height: 45px;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    min-width: 980px;
+    bottom: 0%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.footerL{
+color: #5f6368;
+margin: 2px ;
+float: left;
+left: 2px;
+display: inline-block;
+padding-left: 15px;
+line-height: 40px;
+}
+.footerR{
+    float: right;
+    display: inline-block;
+    padding-right: 15px;
+    line-height: 40px;
+}
+.down{
+    position: fixed;
+    bottom: 45px;
+    left: 0;
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #e4e4e4;
+    border-top: 1px solid #e4e4e4;
+  padding-left: 15px;
+  border-bottom: 1px solid #e4e4e4;
+  background: #f2f2f2;
+  height: 45px;
+  min-width: 980px;
+
+}
+#col{
+    line-height: 40px;
+    color: #5f6368;
+}
+.space{
+    padding-top: 8px;
+    position: absolute;
+    top: 53px;
+    width: 487px;
+    z-index: 0;
+}
